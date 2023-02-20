@@ -1,54 +1,36 @@
-# CodeIgniter 4 Framework
+## Assignment - 1
 
-## What is CodeIgniter?
+* localhost:8080/register_user -> Register Page Form
+* localhost:8080/register -> Save Register data
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+* localhost:8080/login -> Login Form
+* localhost:8080/login_user -> validate Login data
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+* localhost:8080/home_page -> After successfull login routes to home_page
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Assignment - 2 
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+* localhost:8080/buzzfizz -> Form display for buzzfizz Enter number
+* localhost:8080/a2 -> validate BuzzFizz data 
 
-## Important Change with index.php
+Assignment - 3
+* localhost:8080/palindrome -> Form for enter string for palindrome
+* localhost:8080/a3 -> Controller to validate string palindrome or not  
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+# Please refer Routes.php for routing.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## Assignment - 1 :
 
-## Repository Management
+# REGISTER
+1. Enter deatils in Register Form 
+2. After submit data goes to Register::register() controller
+3. If email is alredy present in data then display error message in Regiter page
+4. If All data is correct it will save data in DB.
+5. After successfull save data in DB redirect to login page for login form
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+# LOGIN
+1. after successfull regiter you can login using email and password
+2. successfull login redirect to home_page
+3. Login credential worng then display error message on ligin page
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library

@@ -1,0 +1,103 @@
+CRITICAL - 2023-02-18 18:24:55 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-18 17:55:45 --> Undefined variable $request
+in APPPATH\Controllers\BuzzFizz.php on line 9.
+ 1 APPPATH\Controllers\BuzzFizz.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\BuzzFizz.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 17:55:49 --> Undefined variable $request
+in APPPATH\Controllers\BuzzFizz.php on line 9.
+ 1 APPPATH\Controllers\BuzzFizz.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\BuzzFizz.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 17:59:28 --> Undefined variable $request
+in APPPATH\Controllers\BuzzFizz.php on line 9.
+ 1 APPPATH\Controllers\BuzzFizz.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\BuzzFizz.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 17:59:32 --> Undefined variable $request
+in APPPATH\Controllers\BuzzFizz.php on line 9.
+ 1 APPPATH\Controllers\BuzzFizz.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\BuzzFizz.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:00:32 --> Undefined variable $request
+in APPPATH\Controllers\BuzzFizz.php on line 9.
+ 1 APPPATH\Controllers\BuzzFizz.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\BuzzFizz.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:00:33 --> Undefined variable $request
+in APPPATH\Controllers\BuzzFizz.php on line 9.
+ 1 APPPATH\Controllers\BuzzFizz.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\BuzzFizz.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:00:36 --> Undefined variable $request
+in APPPATH\Controllers\BuzzFizz.php on line 9.
+ 1 APPPATH\Controllers\BuzzFizz.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\BuzzFizz.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:08:40 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\my-app\app\Controllers\BuzzFizz.php on line 21
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\BuzzFizz.php(21): view('assignment_2', 'BuzzFizz')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:08:41 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\my-app\app\Controllers\BuzzFizz.php on line 21
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\BuzzFizz.php(21): view('assignment_2', 'Buzz')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:08:42 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\my-app\app\Controllers\BuzzFizz.php on line 21
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\BuzzFizz.php(21): view('assignment_2', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:08:45 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\my-app\app\Controllers\BuzzFizz.php on line 21
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\BuzzFizz.php(21): view('assignment_2', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BuzzFizz->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuzzFizz))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:21:03 --> Undefined array key "number"
+in APPPATH\Controllers\Palindrome.php on line 10.
+ 1 APPPATH\Controllers\Palindrome.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'APPPATH\\Controllers\\Palindrome.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Palindrome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Palindrome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:21:20 --> Undefined variable $str1
+in APPPATH\Controllers\Palindrome.php on line 12.
+ 1 APPPATH\Controllers\Palindrome.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $str1', 'APPPATH\\Controllers\\Palindrome.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Palindrome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Palindrome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 18:21:26 --> Undefined variable $str1
+in APPPATH\Controllers\Palindrome.php on line 12.
+ 1 APPPATH\Controllers\Palindrome.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $str1', 'APPPATH\\Controllers\\Palindrome.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Palindrome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Palindrome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

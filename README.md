@@ -34,3 +34,15 @@ Assignment - 3
 2. successfull login redirect to home_page
 3. Login credential worng then display error message on ligin page
 
+## Database SQL
+CREATE TABLE `my_app_db`.`user` (`email` VARCHAR(100) NOT NULL , `name` VARCHAR(100) NOT NULL , `password` VARCHAR(100) NOT NULL , `profile_image` VARCHAR(100) NULL , PRIMARY KEY (`email`)) ENGINE = InnoDB; 
+
+## Datase config in Database.php
+'hostname' => 'localhost',
+'username' => 'root',
+'password' => '',
+'database' => 'my_app_db',
+
+
+
+

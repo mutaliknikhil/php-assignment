@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="container m-5"style="width:50%">
+    <div class="container m-5" style="width:50%">
         <h1>REGISTER PAGE</h1>
         <div class="text-danger">
             <?php 
@@ -17,28 +17,58 @@
                     echo "<h5>".session()->getFlashdata('status')."</h5>";
             ?>
         </div>
-        <form action="<?= base_url('register'); ?>" method="post" enctype="multipart/form-data">
+        <form method="post" action="/register" id="idForm" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" name="name" class="form-control" id="name" required  >
+                <input type="text" name="name" class="form-control" id="name"   >
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
-                <input type="email" name="email" class="form-control" id="email" required>
+                <input type="email" name="email" class="form-control" id="email" >
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" name="password" class="form-control" id="password" required>
+                <input type="password" name="password" class="form-control" id="password" >
             </div>
             <div class="mb-3">
                 <label for="profile_img" class="form-label">Upload Profile Photo</label>
-                <input type="file" name="profile_img" class="form-control" id="profile_img" required>
+                <input type="file" name="profile_img" class="form-control" id="profile_img" >
             </div>
-            <input type="submit" value="Register" id="register" class="btn btn-primary">
+            <button type="submit" id="register" class="btn btn-primary" > Click </button>
         </form>
     </div>
 
+    
+
     <script type="text/javascript" src="<?php echo base_url("assets/js/jquery.js"); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.js"); ?>"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            $("#register").click(function(e) {
+                e.preventDefault(); // avoid to execute the actual submit of the form.
+                var form = $(this);
+                var actionUrl = "/register";
+                var data = {
+                    'name':$('#name').val(),
+                    'email':$('#email').val(),
+                    'password':$('#password').val(),
+                    'profile_img':$('#profile_img')[0].files[0],
+                }
+
+                console.log(actionUrl);
+                console.log(data);
+                $.ajax({
+                    type: "POST",
+                    url: actionUrl,
+                    data: data, // serializes the form's elements.
+                    success: function(response)
+                    {
+                      alert("Registration Succesfull"); // show response from the php script.
+                    }
+                });
+            })
+        });
+    </script>
 </body>
 </html>
